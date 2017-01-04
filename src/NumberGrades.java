@@ -41,8 +41,8 @@ public class NumberGrades {
 
             //Ask if the user wants to continue
             System.out.print("Would you like to run the program again?  Type yes or no: ");
-            tableGrades.nextLine();
-            userAnswer = tableGrades.nextLine();
+            //tableGrades.nextLine();
+            userAnswer = tableGrades.next();
 
         } while (userAnswer.equals("yes") || userAnswer.equals("y"));
 

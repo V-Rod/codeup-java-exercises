@@ -40,8 +40,8 @@ public class TableOfPowers {
 
             //Ask if the user wants to continue
             System.out.print("Would you like to run the program again?  Type yes or no: ");
-            squareCubeTable.nextLine();
-            userAnswer = squareCubeTable.nextLine();
+            //squareCubeTable.nextLine();
+            userAnswer = squareCubeTable.next();
 
 
         } while (userAnswer.equals("yes") || userAnswer.equals("y"));
