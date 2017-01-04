@@ -25,10 +25,10 @@ public class ControlStatementAndLoops {
             countBackwards -= 5;
         } while (countBackwards >= -10);
 
-        double countSquared = 2;
+        int countSquared = 2;
         do {
             System.out.println("squared count is " + countSquared);
-            countSquared = Math.pow(countSquared, 2);
+            countSquared = (int)Math.pow(countSquared, 2);
         } while (countSquared <= 1000000);
 
         //refactoring previous exercises with a for loop
