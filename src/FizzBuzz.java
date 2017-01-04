@@ -9,7 +9,7 @@ public class FizzBuzz {
             count++;
             if (count % 3 == 0 && count % 5 == 0) {
                 System.out.println("FizzBuzz!");
-            } else if (count % 5 == 0){
+            } else if (count % 5 == 0) {
                 System.out.println("Buzz!");
             } else if (count % 3 == 0) {
                 System.out.println("Fizz!");
