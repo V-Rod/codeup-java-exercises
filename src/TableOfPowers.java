@@ -12,9 +12,10 @@ public class TableOfPowers {
         //Welcome the user to the program
 
 
-            System.out.println("Welcome to the Squares and Cubes Table.  The table will be able to display a table of " +
+        System.out.println("Welcome to the Squares and Cubes Table.  The table will be able to display a table of " +
                     "squares and cubes from 1 to the value entered.");
-            System.out.println();
+        System.out.println();
+
         do {
             //Ask for input from user
             System.out.print("Please enter an integer: ");
@@ -32,6 +33,7 @@ public class TableOfPowers {
                 System.out.println(i  + "        " + resultSquared + "       " + resultCubed);
             }
 
+            //Ask if the user wants to continue
             System.out.print("Would you like to run the program again?  Type yes or no: ");
             squareCubeTable.nextLine();
             userAnswer = squareCubeTable.nextLine();
