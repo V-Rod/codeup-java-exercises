@@ -29,7 +29,7 @@ public class ControlStatementAndLoops {
         do {
             System.out.println("squared count is " + countSquared);
             countSquared = (int)Math.pow(countSquared, 2);
-        } while (countSquared <= 1000000);
+        } while (countSquared < 1000000);
 
         //refactoring previous exercises with a for loop
 
@@ -45,7 +45,7 @@ public class ControlStatementAndLoops {
             System.out.println("forCountBackwards is " + forCountBackwards);
         }
 
-        for (double forCountSquared = 2; forCountSquared <= 1000000; forCountSquared = Math.pow(forCountSquared, 2)){
+        for (double forCountSquared = 2; forCountSquared < 1000000; forCountSquared = Math.pow(forCountSquared, 2)){
             System.out.println("forCountSquared is " + forCountSquared);
         }
 
