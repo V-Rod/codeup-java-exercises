@@ -30,7 +30,12 @@ public class TableOfPowers {
             for (int i = 1; i <= userInput; i++) {
                 int resultSquared = (int) Math.pow(i, 2);
                 int resultCubed = (int) Math.pow(i, 3);
-                System.out.println(i  + "        " + resultSquared + "       " + resultCubed);
+                //System.out.println(i  + "        " + resultSquared + "       " + resultCubed);
+
+                System.out.printf("%6s", i);
+                System.out.printf("%8s", resultSquared);
+                System.out.printf("%8s", resultCubed);
+                System.out.println();
             }
 
             //Ask if the user wants to continue
