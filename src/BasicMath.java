@@ -32,7 +32,7 @@ public class BasicMath {
         System.out.println("The result for the subtraction " + "equals " + subResult);
         System.out.println("The result for the multiplication " + "equals " + mulResult);
         System.out.println("The result for the division " + "equals " + divResult);
-        System.out.println("The result for the modulo " + " is " + modResult);
+        System.out.println("The result for the modulo " + "is " + modResult);
 
     }
 

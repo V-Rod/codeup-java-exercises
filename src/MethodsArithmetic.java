@@ -19,7 +19,7 @@ public class MethodsArithmetic {
         int mulResult = mul(a, b);
         System.out.println(mulResult);
 
-        int divResult = div(a, b);
+        double divResult = div(a, b);
         System.out.println(divResult);
 
         int modResult = mod(a, b);
@@ -40,8 +40,8 @@ public class MethodsArithmetic {
         return a * b;
     }
 
-    public static int div(int a, int b) {
-        return a/b;
+    public static double div(double a, int b) {
+        return a / b;
     }
 
     public static int mod(int a, int b) {
