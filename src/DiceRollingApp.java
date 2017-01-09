@@ -18,8 +18,6 @@ public class DiceRollingApp {
             userChoice = sc.nextLine();
         } while (userChoice.equalsIgnoreCase("yes"));
 
-
-
     }
 
     public static void rollTwoDice(Scanner sc) {
@@ -39,6 +37,7 @@ public class DiceRollingApp {
         DiceObject secondDice = new DiceObject(numberOfSides);
         secondDice.rollDice();
         System.out.println("You rolled a " + secondDice.currentValue + " on the second dice.");
+        System.out.println("Together, your total is " + (firstDice.currentValue + secondDice.currentValue));
 
     }
 
