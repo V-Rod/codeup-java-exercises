@@ -7,7 +7,6 @@ import java.lang.Math;
 public class Circle {
 
     Scanner scan = new Scanner(System.in);
-    Validator validator = new Validator(scan);
     private double radius;
     private double circumference;
     private double area;
