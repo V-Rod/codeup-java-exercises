@@ -52,7 +52,7 @@ public class Validator {
             System.out.print(prompt);
             userDouble = sc.nextDouble();
         } catch (InputMismatchException e) {
-            System.out.print("Error! Invalid decimal value. Try again.");
+            System.out.print("Error! Invalid decimal value. Try again. ");
             sc.next();
             return getDouble(prompt);
         }

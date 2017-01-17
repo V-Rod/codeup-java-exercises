@@ -6,6 +6,9 @@ public class Student {
     private String firstName;
     private String lastName;
     private double score;
+    private int age;
+
+    public static int numberOfStudentsCreated;
 
 
     public String getFirstName() {
@@ -24,6 +27,7 @@ public class Student {
         this.firstName = firstName;
         this.lastName = lastName;
         this.score = score;
+        numberOfStudentsCreated++;
     }
 
 
