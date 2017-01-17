@@ -13,7 +13,7 @@ public class ExceptionDemoApp {
         System.out.println("Welcome to the Student Records Application.");
 
         Student newStudent = new Student(getFirstName(scan), getLastName(scan), getAge(scan));
-        System.out.println("You entered: " + newStudent.getFirstName() + " " + newStudent.getLastName() + " " + newStudent.getAge());
+        System.out.println("You entered: " + newStudent.getFirstName() + " " + newStudent.getLastName());
 
     }
 

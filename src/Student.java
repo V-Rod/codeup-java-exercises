@@ -5,7 +5,8 @@ public class Student {
 
     private String firstName;
     private String lastName;
-    private int age;
+    private double score;
+
 
     public String getFirstName() {
         return firstName;
@@ -15,15 +16,18 @@ public class Student {
         return lastName;
     }
 
-    public int getAge() {
-        return age;
+    public double getScore() {
+        return score;
     }
 
-    public Student (String firstName, String lastName, int age) {
+    public Student (String firstName, String lastName, double score) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.age = age;
+        this.score = score;
     }
 
 
+    public String getFullName() {
+        return firstName + " " + lastName;
+    }
 }
