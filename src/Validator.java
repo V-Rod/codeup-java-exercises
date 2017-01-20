@@ -87,6 +87,33 @@ public class Validator {
         }
         return inputString;
     }
+
+    public static String getUserString(String prompt) {
+        String string = "";
+        boolean isValid = false;
+        Scanner sc = new Scanner(System.in);
+        while (!isValid) {
+            System.out.print(prompt);
+            string = sc.nextLine();
+            if (!string.equals(""))
+                isValid = true;
+        }
+        return string;
+    }
+
+    public static String getString(String prompt) {
+        String string = null;
+        boolean isValid = false;
+
+        while (!isValid) {
+            string = getUserString(prompt);
+            if (string.compareTo("Y") == 0 || string.compareTo("y") == 0 || string.compareTo("N") == 0 || string.compareTo("n") == 0)
+                isValid = true;
+            else
+                System.out.println("Error! Entry must be 'y' or 'n'. Try again.");
+        }
+        return string;
+    }
 }
 
 //.contains
