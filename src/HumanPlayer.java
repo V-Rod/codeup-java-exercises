@@ -13,9 +13,14 @@ public class HumanPlayer extends Player {
     @Override
     public Roshambo generateRoshambo()
     {
-        if (response.compareTo("R") == 0 || response.compareTo("r") == 0) return Roshambo.ROCK;
-        if (response.compareTo("P") == 0 || response.compareTo("p") == 0) return Roshambo.PAPER;
-        return Roshambo.SCISSORS;
+        if (response.compareTo("R") == 0 || response.compareTo("r") == 0) {
+            return Roshambo.ROCK;
+        } else if (response.compareTo("P") == 0 || response.compareTo("p") == 0){
+            return Roshambo.PAPER;
+        } else {
+            return Roshambo.SCISSORS;
+        }
+
     }
 
 }
