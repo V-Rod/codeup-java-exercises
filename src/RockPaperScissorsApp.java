@@ -28,8 +28,8 @@ public class RockPaperScissorsApp {
         System.out.println();
 
         // Create the Opponent objects
-        Herbert h = new Herbert();
-        Joseph j = new Joseph();
+        RockPlayer h = new RockPlayer();
+        ComputerPlayer j = new ComputerPlayer();
 
         // Input name of human player and ask who does the human player want to play against
         name = Validator.getUserString("Enter your name: ");
@@ -85,8 +85,7 @@ public class RockPaperScissorsApp {
             }
             // see if the user wants to continue
             choice = Validator.getString("Play again?(y/n): ");
-            System.out.println("Thank you for playing!");
-
-        }
+            System.out.println();
+        }System.out.println("Thank you for playing!");
     }
 }

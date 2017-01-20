@@ -9,7 +9,6 @@ public abstract class Player {
     public Player() {
         this.name = getName();
         this.response = getResponse();
-
     }
 
     public String getName() {

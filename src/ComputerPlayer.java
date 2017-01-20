@@ -3,10 +3,10 @@ import java.util.Random;
 /**
  * Created by V-Rod on 1/18/17.
  */
-public class Joseph extends Player {
+public class ComputerPlayer extends Player {
 
     // this player randomly select rock, paper, or scissors
-    public Joseph() {
+    public ComputerPlayer() {
         name = "Joseph";
     }
 

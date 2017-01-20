@@ -1,10 +1,10 @@
 /**
  * Created by V-Rod on 1/18/17.
  */
-public class Herbert extends Player {
+public class RockPlayer extends Player {
 
     // This player always select Rock when playing rock paper scissors
-    public Herbert() {
+    public RockPlayer() {
         name = "Herbert";
     }
 
