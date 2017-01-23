@@ -21,7 +21,6 @@ public class CountTestApp {
         System.out.println();
 
         // create the sheep object
-        Countable sheep = new Sheep();
         Sheep sheep1 = new Sheep();
 
         // reset the count
