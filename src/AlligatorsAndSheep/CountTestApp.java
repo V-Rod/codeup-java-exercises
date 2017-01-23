@@ -23,9 +23,6 @@ public class CountTestApp {
         // create the sheep object
         Sheep sheep1 = new Sheep();
 
-        // reset the count
-        sheep1.resetCount();
-
         // set the name for sheep1 and count the sheep
         sheep1.setSheepName("Blackie");
         count(sheep1, 2);
@@ -38,15 +35,14 @@ public class CountTestApp {
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
-        sheep2.resetCount();
+
         sheep2.setSheepName("Dolly");
 
         // count the cloned sheep 3 times
         count(sheep2, 3);
         System.out.println();
 
-        // reset the count for the first sheep and count the sheep 1 time
-        sheep1.resetCount();
+        // count the original sheep 1 time
         count(sheep1, 1);
 
     }

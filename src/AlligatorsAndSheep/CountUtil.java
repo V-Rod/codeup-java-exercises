@@ -15,6 +15,7 @@ public class CountUtil {
             System.out.println(c.getCountString());
 
         }
+        c.resetCount();
 
     }
 
